@@ -1,4 +1,4 @@
-FROM ubuntu:20.04 as build
+FROM ubuntu:20.04
 
 ADD prepare.sh .
 RUN chmod +x prepare.sh && ./prepare.sh
